@@ -43,9 +43,6 @@ setlocal enabledelayedexpansion
     ::Файл для вывода системных сообщений 1С:
     set logFile_DumpConfigToFiles=%localPathApp%\logFile_DumpConfigToFiles.log
 
-    ::Режим создания структуры папок:
-    set isCreateDirectory=false
-
 ::BEGIN--------------------------------
 
     ::Поиcк и создание рабочей папки "%localPathApp%":
